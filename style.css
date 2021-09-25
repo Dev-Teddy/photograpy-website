@@ -13,6 +13,13 @@ h1 {
     margin: 30px 0;
     font-size: 24px;
 }
+.btn {
+    height: 38px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid #4CAF50;
+   
+}
 
 /* header section */
 
@@ -55,10 +62,13 @@ h1 {
     margin-left: 10px;
 }
 
-.btn {
-    height: 38px;
-    background-color: transparent;
-    color: black;
-    border: 2px solid #4CAF50;
-   
-}
+
+ /* featured section */
+
+ .featured-container {
+     display: flex;
+     justify-content: center;
+ }
+ .image-card {
+     margin: 10px 10px;
+ }
