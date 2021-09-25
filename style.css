@@ -1,3 +1,64 @@
 * {
     margin: 0;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.section-title {
+    margin: 30px 0;
+    font-size: 24px;
+}
+
+/* header section */
+
+.header {
+
+    height: 600px;
+    background-color: aqua;
+    background-image: url("images/b5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+.nav-bar {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-evenly;
+
+
+}
+
+.intro-section {
+  margin-top: 70px;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-120%);
+
+
+}
+.intro-section p {
+    margin: 40px 0;
+}
+
+.nav-bar ul li {
+
+    display: inline;
+    margin-left: 10px;
+}
+
+.btn {
+    height: 38px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid #4CAF50;
+   
 }
