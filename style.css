@@ -15,6 +15,7 @@ h1 {
 }
 .btn {
     height: 38px;
+    width: 100px;
     background-color: transparent;
     color: black;
     border: 2px solid #4CAF50;
@@ -42,6 +43,29 @@ h1 {
 
 }
 
+.nav-bar h3 {
+    font-size: 26px;
+}
+.nav-bar ul li {
+
+    display: inline;
+    margin-left: 10px;
+}
+.nav-bar a {
+ color: white;
+ text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 .intro-section {
   margin-top: 70px;
     position: relative;
@@ -56,11 +80,7 @@ h1 {
     margin: 40px 0;
 }
 
-.nav-bar ul li {
 
-    display: inline;
-    margin-left: 10px;
-}
 
 
  /* featured section */
