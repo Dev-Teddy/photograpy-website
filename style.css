@@ -123,20 +123,30 @@ h1 {
 
  .about-row {
     display: flex;
+    height: 400px;
     justify-content: center;
+    align-items: center;
  }
 
  /* Footer Section */
 
  .footer {
-     height: 100px;
-     background-color: teal;
+     height: 200px;
+     color: white;
+     background-color: rgb(19, 18, 18);
      padding: 30px 30px;
  }
  .row {
      display: flex;
      justify-content: space-evenly;
+     flex-wrap: wrap;
     
+ }
+.col-1 {
+    margin: 30px;
+}
+ .footer ul li{
+     list-style-type: none;
  }
 .lisence {
     text-align: center;
