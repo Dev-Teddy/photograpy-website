@@ -25,7 +25,7 @@ h1 {
 
 .header {
 
-    height: 600px;
+    height: 800px;
     background-color: aqua;
     background-image: url("images/b5.jpg");
     background-repeat: no-repeat;
@@ -68,7 +68,36 @@ h1 {
  .featured-container {
      display: flex;
      justify-content: center;
+     flex-wrap: wrap;
  }
  .image-card {
      margin: 10px 10px;
+     border-radius: 10px;
  }
+
+ /* Quote Section */
+
+ .quote {
+     text-align: center;
+     padding: 30px 0;
+     margin-top: 40px;
+     margin: auto;
+     max-width: 700px;
+ }
+
+
+ /* Footer Section */
+
+ .footer {
+     height: 100px;
+     background-color: teal;
+     padding: 30px 30px;
+ }
+ .row {
+     display: flex;
+     justify-content: space-evenly;
+    
+ }
+.lisence {
+    text-align: center;
+}
