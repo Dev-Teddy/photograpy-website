@@ -11,27 +11,30 @@ h1 {
 }
 
 .section-title {
-    margin: 30px 0;
+    margin: 60px 30px 30px;
     font-size: 24px;
     font-family: 'Prompt', sans-serif;
 }
 .btn {
     height: 38px;
-    width: 10%;
-    background-color: turquoise;
+    width: 120px;
+    background-color: rgb(26, 41, 39);
     color: white;
     border-radius: 10px;
     border: none;
     
    
 }
+.btn:hover {
+    background-color: white;
+    color: black;
+}
 
 /* header section */
 
 .header {
 
-    height: 800px;
-    background-color: aqua;
+    height: 700px;
     background-image: url("images/b5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,6 +92,10 @@ h1 {
      margin: 10px 10px;
      border-radius: 10px;
  }
+ .image-card p {
+  margin: 20px 0;
+ }
+ 
 
  /* Quote Section */
 
