@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     font-family: 'Prompt', sans-serif;
@@ -131,7 +135,7 @@ h1 {
  /* Footer Section */
 
  .footer {
-     height: 250px;
+     min-height: 250px;
      color: white;
      background-color: rgb(19, 18, 18);
      padding: 30px 30px;
