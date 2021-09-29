@@ -25,7 +25,7 @@ h1 {
     background-color:cadetblue;
     color: white;
     border-radius: 10px;
-    border: none;
+    border: 5px solid cadetblue;
     
    
 }
