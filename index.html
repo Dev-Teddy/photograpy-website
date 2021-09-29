@@ -10,8 +10,8 @@
     <!-- font families -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,10 +20,10 @@
         <div class="nav-bar">
             <h3> <a href="">Ted Graphics</a> </h3>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Featured</a></li>
-                <li><a href="">Gallery</a></li>
-                <li><a href="">About</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            
             </ul>
 
         </div>
@@ -34,14 +34,16 @@
                 <p>“Photography is a way of feeling, of touching, of loving. What you have caught on film is
                     captured forever…<br> It remembers little things, long after you have forgotten everything.”</p>
             </div>
-            <button class="btn">Learn More</button>
+            <a href="#featured">  <button type="submit" class="btn"> 
+                Learn More</button></a>
+          
 
         </div>
     </section>
 
     <!-- Featured Section -->
 
-    <section class="featured-section">
+    <section class="featured-section" id="featured">
 
         <div class="section-title">
             <h2>Featured</h2>
@@ -49,22 +51,22 @@
 
         <div class="featured-container">
             <div class="image-card">
-                <img src="images/bg2.jpg" height="250" alt="">
+                <img src="images/nature.jpg" height="250" alt="">
                 <h2>Nature Photos</h2>
-                <p>Lorem ipsum dolor sit <br> amet consectetur adipisicing elit. Ad, deserunt!</p>
-                <button class="btn">Learn More</button>
+                <p>Photos that describe the environment we live in</p>
+                <button class="btn">More Photos</button>
             </div>
             <div class="image-card">
-                <img src="images/bg2.jpg" height="250" alt="">
+                <img src="images/space.jpg" height="250" alt="">
                 <h2>Space Exploration Photos</h2>
-                <p>Lorem ipsum dolor sit <br> amet consectetur adipisicing elit. Ad, deserunt!</p>
-                <button class="btn">Learn More</button>
+                <p>At the end of the day,all of us want to go to space</p>
+                <button class="btn">More Photos</button>
             </div>
             <div class="image-card">
-                <img src="images/bg2.jpg" height="250" alt="">
+                <img src="images/animation.jpg" height="250" alt="">
                 <h2>Animation Photos</h2>
-                <p>Lorem ipsum dolor sit <br> amet consectetur adipisicing elit. Ad, deserunt!</p>
-                <button class="btn">Learn More</button>
+                <p>See some of the best animation photos</p>
+                <button class="btn">More Photos</button>
             </div>
         </div>
 
@@ -75,61 +77,63 @@
 
 
     <div class="quote">
-        <p> <strong>"</strong>  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi aut dignissimos consectetur commodi
-            aperiam, minima rem voluptate, exercitationem possimus in dolorem. Dolorum molestias eveniet id omnis
-            expedita totam sed voluptate?  <strong>"</strong></p>
+        <p> <strong>"</strong> When you photograph people in color, you photograph their clothes. But when you
+            photograph people in Black and white, you photograph their souls. <br>
+            It is an illusion that photos are made with the camera… they are made with the eye, heart, and head.
+            <strong>"</strong></p>
     </div>
 
 
     <!-- Gallery Section -->
 
-    <section class="gallery-section">
+    <section id="gallery" class="gallery-section">
         <div class="section-title">
             <h2>Gallery</h2>
         </div>
 
         <div class="featured-container">
             <div class="image-card">
-                <img src="images/bg2.jpg" height="250" alt="">
-                
+                <img src="images/animation1.jpg" height="250" alt="">
+
             </div>
             <div class="image-card">
-                <img src="images/bg2.jpg" height="250" alt="">
-               
+                <img src="images/space1.jpg" height="250" alt="">
+
             </div>
             <div class="image-card">
-                <img src="images/bg2.jpg" height="250" alt="">
-                
+                <img src="images/nature1.jpg" height="250" alt="">
+
             </div>
             <div class="image-card">
-                <img src="images/bg2.jpg" height="250" alt="">
-                
+                <img src="images/space2.jpg" height="250" alt="">
+
             </div>
             <div class="image-card">
-                <img src="images/bg2.jpg" height="250" alt="">
-               
+                <img src="images/nature2.jpg" height="250" alt="">
+
             </div>
             <div class="image-card">
-                <img src="images/bg2.jpg" height="250" alt="">
-                
+                <img src="images/animation2.jpg" height="250" alt="">
+
             </div>
             <div class="image-card">
-                <img src="images/bg2.jpg" height="250" alt="">
-                
+                <img src="images/nature3.jpg" height="250" alt="">
+
             </div>
             <div class="image-card">
-                <img src="images/bg2.jpg" height="250" alt="">
-               
+                <img src="images/animation3.jpg" height="250" alt="">
+
             </div>
             <div class="image-card">
-                <img src="images/bg2.jpg" height="250" alt="">
-                
+                <img src="images/space3.jpg" height="250" alt="">
+
             </div>
         </div>
 
     </section>
 
 
+<<<<<<< HEAD
     <!-- About Section -->
     
     <section class="about-section">
@@ -151,6 +155,9 @@
             </div>
         </div>
     </section>
+=======
+    
+>>>>>>> master
 
 
     <!-- Footer Section -->
@@ -160,10 +167,10 @@
             <div class="col-1">
                 <h2>Quick Links</h2>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Featured</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="">About</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#featured">Featured</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
                 </ul>
             </div>
             <div class="col-1">
@@ -178,7 +185,7 @@
             <div class="col-1">
                 <h2>Get In Touch With Me</h2>
                 <form action="">
-                    <input type="email"  class="input-form"  name="email" id="email">
+                    <input type="email" class="input-form" name="email" id="email">
                     <button class="btn">Send</button>
                 </form>
             </div>
