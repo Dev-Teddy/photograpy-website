@@ -47,3 +47,6 @@ git clone git@github.com:Dev-Teddy/photograpy-website.git
 <h2>Author <span>&#128104;&#127997;</span> </h2>
 
 Teddy Omondi
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
